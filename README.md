@@ -4,11 +4,11 @@ Pandas-profiling is an open-source Python library that generates profile reports
 
 Here's what pandas-profiling typically provides:-
 * Essentials: Type, unique values, missing values
-* Quantile statistics like minimum value, Q1Q1, median, Q3Q3, maximum, range, interquartile range
+* Quantile statistics like minimum value, Q1, median, Q3, maximum, range, interquartile range
 * Descriptive statistics like mean, mode, standard deviation, sum, median absolute deviation, coefficient of variation, kurtosis, skewness
 * Most frequent values
 * Histogram
-* Correlations highlighting of highly correlated variables, Spearman, Pearson and Kendall matrices
+* Correlations highlighting highly correlated variables, Spearman, Pearson and Kendall matrices
 
 
 ### Code: 
