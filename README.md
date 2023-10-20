@@ -12,18 +12,18 @@ Here's what pandas-profiling typically provides:-
 
 
 ### Code: 
-pip install pandas pandas-profiling
-import pandas as pd
-from pandas_profiling import ProfileReport
+pip install pandas pandas-profiling  
+import pandas as pd  
+from pandas_profiling import ProfileReport  
 
-# Reading the CSV file
-file_path = "/path/to/your/csvfile.csv"  # Replace with your CSV file path
-df = pd.read_csv(file_path)
+#Reading the CSV file  
+file_path = "/path/to/your/csvfile.csv"  # Replace with your CSV file path  
+df = pd.read_csv(file_path)  
 
-# Generating the profiling report
-profile = ProfileReport(df, title="Pandas Profiling Report", explorative=True)
+#Generating the profiling report  
+profile = ProfileReport(df, title="Pandas Profiling Report", explorative=True)  
 
-# Saving the report to an HTML file
-output_path = "output_report.html"
-profile.to_file(output_path)
+#Saving the report to an HTML file  
+output_path = "output_report.html"  
+profile.to_file(output_path)  
 
