@@ -1,3 +1,4 @@
+
 # Pandas_Profiling
 
 Pandas-profiling is an open-source Python library that generates profile reports from a pandas DataFrame. The profiling report is like an "overview" of the dataset, telling you about the types of data, missing data, and other various statistics which can be useful when doing preliminary analysis of the dataset.
@@ -27,4 +28,7 @@ profile = ProfileReport(df, title="Pandas Profiling Report", explorative=True)
 *#Saving the report to an HTML file*  
 output_path = "output_report.html"  
 profile.to_file(output_path)  
+
+
+![Pandas_Profiling](https://github.com/dheerajsk26/Pandas_Profiling/assets/77773902/cba51e0d-a33f-4a09-a032-3df31fbd081c)
 
