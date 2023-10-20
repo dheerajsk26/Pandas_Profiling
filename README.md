@@ -12,13 +12,13 @@ Here's what pandas-profiling typically provides:-
 
 
 ### Code: 
-*#Importing necessary libraries and packages*  
+*#Importing all the necessary libraries and packages*  
 pip install pandas pandas-profiling  
 import pandas as pd  
 from pandas_profiling import ProfileReport  
 
 *#Reading the CSV file*  
-file_path = "/path/to/your/csvfile.csv"  # Replace with your CSV file path  
+file_path = "csvfile.csv"  
 df = pd.read_csv(file_path)  
 
 *#Generating the profiling report*  
